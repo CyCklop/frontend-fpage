@@ -1,15 +1,25 @@
+/* 
+  paleta de colores:
+  #E322C para contrastar con el fondo
+  #F4EFE6 para el fondo
+  #D46F4D para botones o hovers
+ */
+
 #nav-tab {
     display: flex;
     padding: 4px;
-    color: azure;
-    background-color: #020617;
+    color: #F4EFE6;
+    background-color: #3E322C;
 }
 
-html {
-    background-color: #0F172A;
+body {
+    background-color: #F4EFE6;
 }
 
-.main-image-container {}
+.main-image-container {
+    width: 50%;
+    height: 100px;
+}
 
 .card-container {
     background-color: #1E293B;
