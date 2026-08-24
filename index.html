@@ -6,25 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>eMusic</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" href="img/favicon-img.png" type="image/x-icon">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
 </head>
-|
+
 <body>
 
   <header>
-    <nav id="nav-tab">
+    <nav class="nav-tab">
+      <a href="#">
+        <img src="img/logo.png" alt="logo">
+      </a>
       <ul>
-        <li><a href="#">Test</a></li>
-        <li><a href="#">Test2</a></li>
-        <li><a href="#">Test3</a></li>
+        <li><a href="#">CD'S/CASSETTES</a></li>
+        <li><a href="#">VINILOS</a></li>
+        <li><a href="#">TORNAMESAS</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <!-- Carrusel o directamente una imagen estatica de bienvenida -->
     <div class="main-image-container">
       <picture>
         <img src="img/main-fondo.jpg" alt="main-image">
@@ -32,14 +34,30 @@
     </div>
 
     <!-- Seccion de Cards con los Albums On Sale -->
-    <h4>On Sale!</h4>
+    <h4 class="titulo-ofertas">On Sale!</h4>
+
     <div class="card-container">
-      <img src="" alt="card">
-      <div>
-        <h3></h3>
-        <p></p>
+
+      <div class="album-card">
+        <img src="img/albums/breach.jpg" alt="top-breach">
+        <h3>Breach</h3>
+        <p>Twenty One Pilots</p>
       </div>
+
+      <div class="album-card">
+        <img src="img/albums/sotd.png" alt="qotsa-sotd">
+        <h3>Songs for the Deaf</h3>
+        <p>Queens of The Stone Age</p>
+      </div>
+
+      <div class="album-card">
+        <img src="img/albums/rof.jpg" alt="ts-rof">
+        <h3>Room on Fire</h3>
+        <p>The Strokes</p>
+      </div>
+
     </div>
+
   </main>
 
   <footer>
