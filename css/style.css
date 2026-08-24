@@ -71,15 +71,15 @@ body {
     text-align: left;
 }
 
-.album-card h3 {
+.album-card h4 {
     color: #F4EfE6;
-    margin-bottom: auto;
+    margin-top: auto;
 }
 
 .album-card p {
     color: #F4EfE6;
-    margin-top: 1rem;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
+    margin-top: 0;
 }
 
 .album-card img {
@@ -92,6 +92,18 @@ body {
     max-width: 250px;
     border-radius: 3px;
     display: block;
+}
+
+.album-card button {
+    background-color: #D46F4D;
+    color: #F4EfE6;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.album-card button:hover {
+    background-color: #B55B3D;
 }
 
 .titulo-ofertas {
