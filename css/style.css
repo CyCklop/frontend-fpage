@@ -44,6 +44,10 @@ body {
     background-color: #F4EFE6;
 }
 
+footer {
+    background-color: #D46F4D;
+}
+
 .main-image-container {
     width: 100%;
     height: 700px;
