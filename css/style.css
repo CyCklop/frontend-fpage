@@ -63,7 +63,8 @@ footer {
 
 .card-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: row;
     margin: 2rem;
     gap: 2rem;
 }
